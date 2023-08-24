@@ -177,6 +177,9 @@ public class QualitydemyPage {
     @FindBy(xpath = "//a[text()='2']")
      public WebElement kursayfalari2incisayfa;
 
+    @FindBy(css="input#login-email")
+    public WebElement KullaniciEmailKutusuCSS_Locate;
+
 
 
 

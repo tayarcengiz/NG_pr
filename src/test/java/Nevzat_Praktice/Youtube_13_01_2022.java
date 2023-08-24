@@ -1,10 +1,11 @@
 package Nevzat_Praktice;
 
 import Pages.QualitydemyPage;
+import org.junit.Test;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.testng.annotations.Test;
+
 import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;

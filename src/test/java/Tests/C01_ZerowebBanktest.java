@@ -1,7 +1,8 @@
 package Tests;
 
 import Pages.ZeroWebAppPage;
-import org.testng.annotations.Test;
+import org.junit.Test;
+
 import utilities.Driver;
 
 public class C01_ZerowebBanktest {
@@ -15,7 +16,7 @@ public class C01_ZerowebBanktest {
 // 8. “Currency” drop down menusunden Eurozone’u secin
     //9. soft assert kullanarak “Eurozone (euro)” secildigini test edin
     //10. soft assert kullanarak DropDown listesinin su secenekleri oldugunu test edin “Select One”, “Australia (dollar)“, “Canada (dollar)“,”Switzerland (franc)“,”China (yuan)“,”Denmark (krone)“,”Eurozone (euro)“,”Great Britain (pound)“,”Hong Kong (dollar)“,”Japan (yen)“,”Mexico (peso)“,”Norway (krone)“,”New Zealand (dollar)“,”Sweden (krona)“,”Singapore (dollar)“,”Thailand (baht)”
-    @Test
+   @Test
     public void test01(){
         //1. “http://zero.webappsecurity.com/” Adresine gidin
         Driver.getDriver().get("http://zero.webappsecurity.com/");

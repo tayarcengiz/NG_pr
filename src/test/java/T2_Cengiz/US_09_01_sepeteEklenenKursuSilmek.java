@@ -1,8 +1,9 @@
 package T2_Cengiz;
 import Pages.QualitydemyPage;
+import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.WebElement;
-import org.testng.Assert;
+
 import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
@@ -10,7 +11,7 @@ import utilities.TestbaseCross;
 
 public class US_09_01_sepeteEklenenKursuSilmek extends TestbaseCross {
 
-    @Test
+   @Test
     public void test01(){
         //1.https://www.qualitydemy.com/ sayfasina git kullanıcı bilgileri ile siteye giris yap.
         Driver.getDriver().get(ConfigReader.getProperty("qdUrl"));

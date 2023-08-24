@@ -1,8 +1,9 @@
 package Tests;
 
 import Pages.QualitydemyPage;
-import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.junit.Assert;
+import org.junit.Test;
+
 import utilities.ConfigReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
