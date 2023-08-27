@@ -48,6 +48,7 @@ public class Youtube_13_01_2022 {
          ReusableMethods.waitForClickablility(qualitydemyPage.kursayfalari2incisayfa,3);
          action.moveToElement(qualitydemyPage.kursayfalari2incisayfa).clickAndHold();
         qualitydemyPage.kursayfalari2incisayfa.click();
+    // bu yazıyı github dan yazdım.
 
 
     }
